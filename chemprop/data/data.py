@@ -413,7 +413,7 @@ class MoleculeDataset(Dataset):
                             raise NotImplementedError('Atom descriptors are currently only supported with one molecule '
                                                       'per input (i.e., number_of_molecules = 1).')
                         # print(d.smiles)
-                        mol_graph = MolGraph(d.smiles, d.atom_features, d.bond_features,
+                        mol_graph = MolGraph(d.smiles[0], d.atom_features, d.bond_features,
                                              overwrite_default_atom_features=d.overwrite_default_atom_features,
                                              overwrite_default_bond_features=d.overwrite_default_bond_features,
                                              targets=d.targets)
