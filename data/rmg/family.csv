@@ -255,7 +255,7 @@ C8H14O <=> C4H8-3 + C4H6O-3,O=C1C(C)(C)CC1(C)C>>CC(=C)C.O=C=C(C)C,RMG-database/i
 C9H12O <=> C5H6-2 + C4H6O-4,O=C1C2CC=CC2C1(C)C>>C1C=CC=C1.O=C=C(C)C,RMG-database/input/kinetics/families/2+2_cycloaddition/NIST/reactions.py,7940000000000.0,0.0,157975.0
 CH2O + C2H4 <=> C3H6O,C=O.C=C>>C1CCO1,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,4.660000000000002,1.65,226564.0
 CH2O + C2H3O <=> C3H5O2,C=O.[CH2]C=O>>[CH2]C1COO1,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,2.3190000000000003e-07,3.416,322616.0
-CH2O + C2H4<=> C3H6O,,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,1.0560500000000002,1.86,232900.0
+CH2O + C2H4 <=> C3H6O,C=O.C=C>>C1CCO1,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,1.0560500000000002,1.86,232900.0
 CH2S + C2H4 <=> C3H6S,C=S.C=C>>C1CCS1,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,69200.00000000001,0.0,182924.47999999992
 CH2O + C2H4 <=> C3H6O,C=O.C=C>>C1CCO1,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,69200.00000000001,0.0,182924.47999999992
 C2H2O + C2H4 <=> C4H6O,C=C=O.C=C>>O=C1CCC1,RMG-database/input/kinetics/families/2+2_cycloaddition/training/reactions.py,69200.00000000001,0.0,182924.47999999992
@@ -1106,7 +1106,7 @@ CC(O)F_r12 + CH3 <=> C[CH]O_p1 + CH3F_p23,CC(F)O.[CH3]>>C[CH]O.CF,RMG-database/i
 O[C](O)F_r12 + CH3 <=> O[C]O_p1 + CH3F_p23,O[C](F)O.[CH3]>>O[C]O.CF,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,1.7163900000000003e-05,3.56319,226133.0
 [OH]_r3 + C#COF_r12 <=> C#C[O]_p1 + OF_p23,[OH].FOC#C>>[O]C#C.OF,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,0.048753500000000005,3.06244,13961.2
 [OH]_r3 + C[CH]F_r12 <=> [CH]C_p1 + OF_p23,[OH].C[CH]F>>[CH]C.OF,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,0.006632770000000001,2.95236,324109.0
-H2CCFCF3+ CF3 <=> H2CCFCF2 + CF4_p23,,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,1.1550300000000001e-06,3.92844,168206.00000000006
+H2CCFCF3 + CF3 <=> H2CCFCF2 + CF4_p23,FC(=C)C(F)(F)F.F[C](F)F>>FC(=C)[C](F)F.FC(F)(F)F,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,1.1550300000000001e-06,3.92844,168206.00000000006
 CH2F2 + CHO <=> CHFO + CH2F,FCF.[CH]=O>>FC=O.[CH2]F,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,3.75687e-08,4.39321,182090.0
 CH3F + H <=> HF + CH3,CF.[H]>>F.[CH3],RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,3.7667500000000005e-10,5.08404,91863.4
 C2H4F2 + H <=> HF + C2H4F,CC(F)F.[H]>>F.C[CH]F,RMG-database/input/kinetics/families/F_Abstraction/training/reactions.py,3.6972900000000007e-10,5.13872,109875.0
