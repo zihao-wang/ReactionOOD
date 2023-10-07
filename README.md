@@ -12,3 +12,6 @@ We should first map the atoms in the reaction data following the practice of che
 python3 reaction_mapping.py
 ```
 
+### GOOD Benchmark
+
+We add dataset loaders to `GOOD/data/good_datasets`. The processed dataset files can be accessed via `TODO`.
