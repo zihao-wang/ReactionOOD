@@ -1,8 +1,12 @@
 # Reaction OOD
 
+
+The conda environment can be prepared by using `environment.yaml`.
+
+
 ## data processing
 
-### RMG data
+### Dataset from RMG-database
 
 #### RMG Docker Setting
 
@@ -54,6 +58,8 @@ We should first map the atoms in the reaction data following the practice of che
 python3 reaction_mapping.py
 ```
 
-### GOOD Benchmark
+### Dataset from chemprop.
+
+## GOOD Benchmark
 
 We add dataset loaders to `GOOD/data/good_datasets`. The processed dataset files can be accessed via `TODO`.
