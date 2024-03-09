@@ -1,0 +1,3 @@
+[submodule "chemical-reaction-atom-mapping"]
+	path = chemical-reaction-atom-mapping
+	url = https://github.com/hasic-haris/chemical-reaction-atom-mapping.git
