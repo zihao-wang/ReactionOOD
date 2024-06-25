@@ -43,6 +43,8 @@ There are two set of workarounds to build the RMG data from the dataset.
 
 One could populate the dataset "RMG-Family MOOD" and "RMG-Library COOD" with jupyer notebook `rmg_data_processsing/native/family_MOOD_processing.ipynb` and `rmg_data_processsing/native/library_COOD_processing.ipynb`
 
+With the pickle files `{family/library}_reactions.pickle` produced by the notebook, One could run `rmg_data_processing/nativee/family_MOOD_processing.py` to reproduce the csv files `family_MOOD(_reduced).csv` and `rmg_data_processsing/native/library_COOD_processing.py` to produce more csv files with different temperature or temperature & pressure data.
+
 #### Generate the prediction input and output for the reaction OOD dataset.
 
 The input and output of the prediction can be then generated and modified in the notebook
